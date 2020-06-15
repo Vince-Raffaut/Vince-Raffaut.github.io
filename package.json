@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "start",
-    "build": "webpack",
-    "start": "webpack-dev-server --mode development"
+    "build": "webpack -p --config ./webpack.production.config.js",
+    "start": "webpack-dev-server --mode development --config ./webpack.development.config.js"
   },
   "directories": {
     "doc": "doc"
