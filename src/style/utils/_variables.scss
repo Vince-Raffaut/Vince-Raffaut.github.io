@@ -1,0 +1,49 @@
+$min_width: 320px;
+$max_width: 1200px;
+
+:root {
+    --min_width: 320px;
+    --max_width: 1200px;
+    --min_font: 16px;
+    --max_font: 24px;
+
+    --open-sans: 'Open Sans', sans-serif;
+    --gutter-sm: 10px;
+    --gutter-standard: 20px;
+    --gutter-lg: 30px;
+
+    --line-height: 1.666em;
+
+    --body-color: #333;
+
+    --color-sage: #cec288;
+    --color-grey: #6f8695;
+    --color-blue: #1c448e;
+
+    --color-bg: #6f8695;
+    --color-fg: #fff;
+
+    --bg-angle: 135deg;
+    --bg-start: rgba(0,0,0,0.22);
+    --bg-end: rgba(255,255,255,0.22);
+
+    --color-dark: rgba(0,0,0,0.22);
+    --color-light: rgba(255,255,255,0.22);
+
+    --h1: 4px 4px; 
+    --v1: 8px 0px;
+
+    --h2: -4px -4px; 
+    --v2:  8px 0;
+
+    --border-radius: 20px;
+
+    @include media-breakpoint-up(md) {
+        --gutter-standard: 30px;
+        --gutter-lg: 45px;
+    }
+
+    @include media-breakpoint-up(xl) {
+        --gutter-lg: 60px;
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Vince Raffaut",
+    "devTitle": "Front-End Developer",
+    "DevTitleDescription": "I'm a developer with an interest in UX and developing high quality sites that meet AA standards.",
+    "yearStartedInIndustry": "2013",
+    "experience": [
+        {
+            "title": "Front-End Developer",
+            "company": "Websilk",
+            "dateStarted": "01/06/2012",
+            "dateFinished": null
+        }, 
+        {   
+            "title": "Filming and Video editing",
+            "dateStarted": "01/05/2011",
+            "dateFinished": "01/04/2012"
+        }
+    ],
+    "education": [
+        {
+            "school": "Swinburne University",
+            "educationTitle": "Bachelor of Multimedia (Media Studies)",
+            "dateStarted": "01/01/2009",
+            "dateFinished": "01/01/2011"
+        }
+    ],
+    "projects": [
+        {
+            "title": "ComparED",
+            "url": "https://www.compared.edu.au/"
+        }
+    ],
+    "contactDetails": {
+        "emailAddress": "vince.raffaut@gmail.com",
+        "github": "https://github.com/Vince-Raffaut",
+        "linkedin": "https://www.linkedin.com/in/vince-raffaut-7a667150/"
+    }
+}

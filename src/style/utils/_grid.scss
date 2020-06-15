@@ -1,0 +1,48 @@
+body {
+    height: 100%;
+}
+
+.container, 
+.container-fluid {
+    padding-left: var(--gutter-standard);
+    padding-right: var(--gutter-standard);
+}
+
+// margins
+.m-bot-sm {
+    margin-bottom: var(--sm);
+}
+
+.m-bot {
+    margin-bottom: var(--gutter-standard);
+}
+
+.m-bot-xl {
+    margin-bottom: var(--gutter-standard);
+}
+
+// gutter helpers
+
+.gutter-tb {
+    padding-top: var(--gutter-lg);
+    padding-bottom: var(--gutter-lg);
+}
+
+.gutter-tb-sm {
+    padding-top: var(--gutter-standard);
+    padding-bottom: var(--gutter-standard);
+}
+
+[class*="gutter-tb"] + [class*="gutter-tb"] { 
+    padding-top: 0;
+}
+
+.row-sm {
+    margin-left: -10px;
+    margin-right: -10px;
+    
+    [class*="col"] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
